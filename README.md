@@ -46,7 +46,7 @@ The default Codex command is:
 codex
 ```
 
-Both can be changed in the plugin settings.
+Both can be configured in the plugin settings.
 
 ## Settings
 
