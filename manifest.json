@@ -1,0 +1,10 @@
+{
+  "id": "codex-workflow",
+  "name": "Codex Workflow",
+  "version": "0.3.0",
+  "minAppVersion": "1.5.0",
+  "description": "Launch Codex CLI from Obsidian with vault-aware startup context.",
+  "author": "Yifu Tian",
+  "authorUrl": "https://github.com/Yifu-Tian",
+  "isDesktopOnly": true
+}

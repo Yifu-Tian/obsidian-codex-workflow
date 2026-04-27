@@ -1,0 +1,62 @@
+.codex-terminal-root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 100%;
+  padding: 0.75rem;
+}
+
+.codex-terminal-title {
+  font-size: var(--font-ui-large);
+  font-weight: 600;
+}
+
+.codex-terminal-path {
+  color: var(--text-muted);
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-small);
+  overflow-wrap: anywhere;
+}
+
+.codex-terminal-launch {
+  width: 100%;
+}
+
+.codex-terminal-label {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  font-weight: 600;
+}
+
+.codex-terminal-command-input,
+.codex-terminal-prompt {
+  width: 100%;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-small);
+}
+
+.codex-terminal-command-input {
+  min-height: 2.25rem;
+}
+
+.codex-terminal-prompt {
+  flex: 1 1 auto;
+  min-height: 14rem;
+  padding: 0.75rem;
+  resize: vertical;
+  line-height: 1.45;
+}
+
+.codex-terminal-hint {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  overflow-wrap: anywhere;
+}
