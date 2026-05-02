@@ -1,6 +1,6 @@
 # Codex Workflow
 
-Codex Workflow is a small desktop plugin for launching Codex CLI from the current vault.
+Codex Workflow is a plugin for launching Codex CLI from the current vault.
 
 Manage your Obsidian knowledge base with Codex!
 
